@@ -1,0 +1,131 @@
+/* ############################################
+ 
+ hnqrHtml.css
+ 
+ Html stylesheet for Quick Reference 7.5
+
+2003-11-13 Kurt
+- added margin-bottom to p.Article-Title to equal margin-top for p.En-Article-Title
+- adjusted margin-top for p.En-Article-Title from 5px to 7px, set p.Article-Title margin-bottom to 7px
+
+2003-10-29 Loren
+- added p.Reference rule, for database rendition
+- added clear:all to div.Protocol-Summary and div.Condition-Summary rules
+ ############################################ */
+
+body, p, td, th, ol, ul, li, td, th  { font-size: 11pt;
+    font-family: arial, helvetica, sans-serif; }
+body { color: black; background-color: white; }
+
+a  { color: #0000FF; }
+a:visited { color: #0000FF; }
+a:hover { color: #0033ff; }
+
+h3 { font-size: 12pt;
+    font-family: arial, helvetica, sans-serif; font-weight: bold; margin-bottom: 0; }
+
+p, li { line-height: 1.3em; }
+p { margin-top: 0px; /* margin-bottom: 8px; */ }
+
+ul { margin-left: 1.4em; margin-top: 0; margin-bottom: 4px; }
+li {margin-top: 0px; margin-bottom: 0px; display: list-item; }
+li.continue { margin-top: 4px; list-style: none; }
+li.Ref, p.Reference { font-size: 9pt; margin-bottom: 0px; }
+
+p.Article-Title { font-size: 20pt;
+    font-weight: bold; text-align:left; margin-bottom: 7px; }
+
+p.En-Article-Title { font-size: 14pt; color:#999999;
+    font-weight: bold; text-align:left; margin-top: 7px; margin-bottom: 10 px; }
+
+.Also-Indexed, .Related-Topics, .Botanical-Names, .Common-Names { margin-top: 0; }
+p.Also-Indexed, p.Related-Topics, p.Botanical-Names, p.Common-Names { font-size: 9pt; }
+.Heading { font-weight: bold; }
+span.Qualifier { font-weight: normal; }
+
+.Photo-Credit { font-size: 8pt;
+    margin-right: 5; text-align: right; }
+
+div.sidebar { margin-top: 12pt; }
+ul.sidebar { margin-left: 12pt; margin-bottom: 12pt; font-size: 9pt; }
+
+p.Drugix-Item { margin-left: 5%; margin-top: .5em;  margin-bottom: .5em; }
+img.Dnitype-Icon-Text { 
+    width: 14px; height: 14px; margin-bottom: 1px; vertical-align: text-bottom; }
+img.Dnitype-Icon-List { 
+    width: 14px; height: 14px; margin-bottom: 1px; vertical-align: text-bottom;  }
+
+div.Copyright-Notice { margin-top: 1.5em; }
+div.Copyright-Notice p { font-size: 9pt; margin-top: .5em; margin-bottom: .5em; }
+div.Copyright-Notice img { padding:0; margin:0; }
+p.Copyright { font-size: 9pt; font-weight: bold; margin-top: 0;}
+
+.Botanical-Names { margin-bottom:6px } 
+.Botany { margin-bottom:6px }
+.Common-Names { margin-bottom:6px }
+.Symptoms {}
+.Treatments {}
+.Supp-Options {}
+.Herb-Options {}
+.Diet-Options {}
+.Life-Options {} 
+.Integrative-Options {}
+.Dosage {}
+.Effects-Cautions {}
+.Mechanism {}
+.Sources {}
+.Form-Options {}
+
+/* ############################################
+ summary tables
+ ############################################ */
+
+div.Protocol-Summary { margin-bottom: 1em; clear: all; }
+p.Protocol-Summary-Heading {
+    margin-top: .5em; margin-bottom: .5em; padding-top: 0;
+    font-weight: bold;
+    text-align: left; font-size: 12pt;
+    }
+table.Protocol-Summary { 
+    margin-top: 0; padding-top: 0; 
+    border: 2px solid silver; border-collapse: collapse; 
+    }
+table.Protocol-Summary td { border: 2px solid silver; border-collapse: collapse; }
+table.Protocol-Summary tr { border: 2px solid silver; border-collapse: collapse; }
+table.Protocol-Summary th { border: 2px solid silver; border-collapse: collapse; }
+
+div.Condition-Summary { margin-bottom: 1em;  clear: all; }
+p.Condition-Summary-Heading {
+    margin-top: .2em; margin-bottom: .2em; padding-top: 0;
+    font-weight: bold;
+    text-align: left;
+    }
+table.Condition-Summary { 
+    margin-top: 0; padding-top: 0; 
+    border: 2px solid silver; border-collapse: collapse; 
+    }
+table.Condition-Summary td { border: 2px solid silver; border-collapse: collapse; }
+table.Condition-Summary tr { border: 2px solid silver; border-collapse: collapse; }
+table.Condition-Summary th { border: 2px solid silver; border-collapse: collapse; }
+td.Condition-Summary { padding-left: .5em; vertical-align: top; 
+    line-height:14pt; border: 1px solid silver; }
+
+.Summary-Columnhead {
+    background-color: #ffffcd; text-align: left; font-size: 11pt;
+    font-weight: bold; font-family: Arial, Helvetica, sans-serif;
+    text-align:left; vertical-align: middle;
+    }
+th.Summary-Column { border: 1px solid silver; padding-left: .5em; }
+
+td.Summary-Entry-Rating { text-align: center; }
+p.Summary-Entry { margin-top: .75em; margin-bottom: .25em; }
+td p.Summary-Entry { margin-top: .5em; margin-bottom: .75em; }
+
+.Summary-Footnote { background-color: #ffffcd; }
+td.Summary-Footnote { font-size: 9pt; border: 1px solid silver; }
+td.Summary-Footnote p { margin-top: 0px; margin-bottom: .5em; font-size: 9pt; }
+
+td.Summary-Homeo { text-align: left; font-size: 9pt; vertical-align: middle; 
+    line-height: 13pt; padding-left: .5em; border: 1px solid silver; }
+th.Summary-Stars { text-align:center; padding-top: .75em; vertical-align: top;
+    line-height:14pt; }

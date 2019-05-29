@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.naturesbounty.com	TRUE	/	FALSE	1999999999	ASPSESSIONIDSQBRATBA	IBNAFHMCDDKLCNABJEFFOCOH
+www.naturesbounty.com	TRUE	/	FALSE	1999999999	XFIRE-SESSION	3247c910-f4b3-4067-a2c5-ae308eb9c24a:1109860454265927200:471
+

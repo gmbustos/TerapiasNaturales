@@ -1,0 +1,21 @@
+HTTrack3.33+swf launched on Thu, 03 Mar 2005 15:24:29 at http://www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/*
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f0#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2005], %s -->" -%l "es, en, *" http://www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/ -O "C:\Documents and Settings\pc\Escritorio\Naturopias\HealthNotes,C:\Documents and Settings\pc\Escritorio\Naturopias\HealthNotes" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -%A php3,php,php2,asp,jsp,pl,cfm,nsf=text/html )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:30:10	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Peripheral_Vascular_Disease.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Peripheral_Vascular_Disease.htm)
+15:30:38	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Chronic_Fatigue_Syndrome.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Chronic_Fatigue_Syndrome.htm)
+15:30:42	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Intermittent_Claudication.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Intermittent_Claudication.htm)
+15:30:54	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Seasonal_Affective_Disorder.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Seasonal_Affective_Disorder.htm)
+15:30:56	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Dermatitis_Herpetiformis.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Dermatitis_Herpetiformis.htm)
+15:31:12	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Pancreatic_Insufficiency.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Pancreatic_Insufficiency.htm)
+15:31:13	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Gestational_Hypertension.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Gestational_Hypertension.htm)
+15:31:22	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Insulin_Resistance_Syndrome.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Concern/Insulin_Resistance_Syndrome.htm)
+15:34:07	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Supp/Medium_Chain_Triglycerides.ref.htm (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Es-Supp/Medium_Chain_Triglycerides.htm)
+15:34:10	Error: 	"Object Not Found" (404) at link www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Images/LogoCpyrt.gif (from www.naturesbounty.com/vf/healthnotes/HN_Live/Spanish/Info/Journals.htm)
+
+HTTrack Website Copier/3.33 mirror complete in 9 minutes 46 seconds : 1216 links scanned, 1205 files written (11382892 bytes overall) [11747231 bytes received at 20046 bytes/sec]
+(10 errors, 0 warnings, 0 messages)
